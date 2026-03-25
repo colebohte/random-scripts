@@ -26,3 +26,4 @@ console.log("Response:", await res.text() || "(empty)");
 
 // References:
 // 1:   User CTRL+SHIFT+I, Navigate to the Network Tab, Find a request, find the "Authorization" header, and copy its data.
+//      If you dont find the "Authorization" header, find another request and try again.
