@@ -1,4 +1,4 @@
-# random-scripts
+# colebohte's Random Scripts
 A bunch of random shit-scripts i made while bored
 
 ## All Scripts
