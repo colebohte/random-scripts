@@ -1,5 +1,6 @@
 // Fancy Name:  Microsoft Learning Activities Stats Spoofer
 // Description: Use this script in the JS console in any browser to spoof your leaderboard stats in MS Learning Activities.
+// Note:        You need to complete the assignment before using this script! Completing the assignment grants you with an authorization token.
 
 const activityId = "YOUR_ACTIVITY_ID"; // Paste the Id for your Microsoft Learning Activity
 const bearerToken = "YOUR_ANON_ACCESS_TOKEN"; // Paste the anon access token here, REMOVE THE "Bearer" TEXT FROM THE BEGINING BEFORE PASTING, Refer to reference 1 at the bottom
@@ -25,5 +26,4 @@ console.log("Status:", res.status);
 console.log("Response:", await res.text() || "(empty)");
 
 // References:
-// 1:   User CTRL+SHIFT+I, Navigate to the Network Tab, Find a request, find the "Authorization" header, and copy its data.
-//      If you dont find the "Authorization" header, find another request and try again.
+// 1:   User CTRL+SHIFT+I, Navigate to the Network Tab, Find a request from path 'complete', find the "Authorization" header, and copy its data.
