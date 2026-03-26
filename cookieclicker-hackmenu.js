@@ -1,20 +1,15 @@
-// ============================================================
-//  COOKIE CLICKER HACK MENU
-//  How to use: Open Cookie Clicker, press F12, paste this
-//  into the Console tab, hit Enter. Press H to toggle menu.
-// ============================================================
+//  Name:        COOKIE CLICKER HACK MENU
+//  Description: How to use: Open Cookie Clicker, press F12, paste this
+//               into the Console tab, hit Enter. Press H to toggle menu.
 
 (function () {
-  // ============================================================
   //  CONFIG — tweak these values to your liking
-  // ============================================================
   const CONFIG = {
     cookiesPerClick: 1000000,       // cookies added per auto-click
     autoClickInterval: 100,           // ms between auto-clicks (lower = faster)
     cookieAddAmount: 1000000000,   // cookies added by "Add Cookies" button
     goldenCookieForce: true,          // force golden cookies to always be on screen
   };
-  // ============================================================
 
   let autoClickActive = false;
   let autoClickTimer = null;
